@@ -1,0 +1,15 @@
+@import "./global/variables";
+@import "./global/map";
+@import "./utils/placeholders";
+
+@import "./global/boilerplates";
+
+@import "./partials/twoColumn";
+@import "./partials/cta";
+@import "./partials/footer";
+
+@import "./components/cards";
+
+@import "./page/home";
+@import "./page/contact";
+@import "./page/pricing";

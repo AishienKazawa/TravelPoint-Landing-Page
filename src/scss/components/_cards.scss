@@ -1,0 +1,33 @@
+.cards__stacked {
+  @media (min-width: 768px) {
+    scale: 0.8;
+
+    & > *:first-child {
+      margin-right: -1rem;
+      z-index: -1;
+      scale: 0.9;
+
+      @media (min-width: 992px) {
+        margin-right: -2rem;
+      }
+    }
+
+    & > *:last-child {
+      margin-left: -1rem;
+      z-index: -1;
+      scale: 0.9;
+
+      @media (min-width: 992px) {
+        margin-left: -2rem;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    scale: 1;
+  }
+
+  @media (min-width: 992px) {
+    padding-inline: 4rem;
+  }
+}

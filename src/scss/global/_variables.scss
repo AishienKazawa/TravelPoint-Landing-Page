@@ -1,0 +1,52 @@
+@use "sass:math";
+
+@font-face {
+  font-family: "baloo2-b";
+  src: url("../../font/Baloo2-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "baloo2-sb";
+  src: url("../../font/Baloo2-SemiBold.ttf") format("truetype");
+}
+
+$primary-100: #ffffff;
+$primary-200: #eff5f8;
+$primary-300: #f2f2f2;
+$neutral-300: #161316;
+$accent-100: #fdca40;
+$accent-200: #ec4e20;
+$gradient-100: linear-gradient(180deg, $accent-200 0%, $accent-100 100%);
+
+$custom-colors: (
+  "primary-100": $primary-100,
+  "primary-200": $primary-200,
+  "primary-300": $primary-300,
+  "neutral-300": $neutral-300,
+  "accent-100": $accent-100,
+);
+
+$custom-family: (
+  primary: "Poppins, sans-serif",
+  secondary-b: "baloo2-b",
+  secondary-sb: "baloo2-sb",
+);
+
+$custom-fontSize: (
+  86: 86,
+  64: 64,
+  48: 48,
+  38: 38,
+  36: 36,
+  32: 32,
+  24: 24,
+  14: 14,
+  12: 12,
+);
+
+$custom-bps: (
+  xs: 0,
+  md: 768,
+  lg: 992,
+  xl: 1200,
+);

@@ -1,0 +1,28 @@
+.footer {
+  &-container {
+    @media (min-width: 992px) {
+      padding-inline: 4rem;
+    }
+
+    .form {
+      display: flex;
+
+      .btn {
+        padding: 0.8rem 1rem !important;
+      }
+    }
+
+    .footer-links > * {
+      transform: scale(0.9);
+
+      @media (min-width: 768px) {
+        transform: scale(1);
+      }
+
+      [role="list"] {
+        display: grid;
+        row-gap: 0.5rem;
+      }
+    }
+  }
+}

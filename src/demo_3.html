@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage #3</title>
+
+    <link rel="stylesheet" href="./public/style.css" />
+
+    <link rel="icon" type="image/x-icon" href="./assets/logo.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-primary-200 text-neutral-300 ff-primary">
+    <main data-scroll-container>
+      <!-- hero section -->
+      <section
+        class="hero hero__c position-relative text-primary-100"
+        id="hero"
+        data-scroll-section
+      >
+        <!-- header -->
+        <header class="header w-100">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container py-lg-1">
+              <!-- logo -->
+              <a class="navbar-brand text-primary-100 fw-semibold" href="#"
+                >Logo Here</a
+              >
+
+              <!-- mobile hamburger -->
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- navlinks -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-lg-3">
+                  <li class="nav-item px-lg-3 dropdown">
+                    <a
+                      class="nav-link asd dropdown-toggle text-primary-100"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Home
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="/">Demo #1</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="demo_2.html">Demo #2</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="demo_3.html">Demo #3</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item px-lg-3">
+                    <a
+                      class="nav-link text-primary-100 a_link"
+                      href="#features"
+                      data-scroll-to=""
+                      >Features</a
+                    >
+                  </li>
+
+                  <li class="nav-item px-lg-3">
+                    <a
+                      class="nav-link text-primary-100 a_link"
+                      href="#pricing"
+                      data-scroll-to=""
+                      >Pricing</a
+                    >
+                  </li>
+
+                  <li class="nav-item px-lg-3">
+                    <a
+                      class="nav-link text-primary-100 a_link"
+                      href="#reviews"
+                      data-scroll-to=""
+                      >Reviews</a
+                    >
+                  </li>
+                </ul>
+
+                <button class="btn btn-accent-100" type="button">
+                  Download
+                </button>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+        <!-- hero content -->
+        <div class="hero-container container">
+          <!-- hero headings -->
+          <div class="hero-headings text-center">
+            <h1
+              class="headline ff-secondary-b fs-48 fs-md-86 fs-lg-64 lh-1 col-xl-5"
+            >
+              Enjoy the World and Lifestyle
+            </h1>
+            <p class="sub-headline col-xl-8">
+              Lorem ipsum dolor sit amet consectetur. Faucibus commodo varius
+              nunc blandit nisi non aliquam turpis. Rhoncus ac at facilisis quam
+              urna ac. Vitae pellentesque elementum suspendisse faucibus
+              iaculis.
+            </p>
+          </div>
+
+          <!-- hero img -->
+
+          <div class="img-phone">
+            <img
+              src="./assets/homepage3-hero-phone.png"
+              alt=""
+              class="img-fluid h-100"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- company logos -->
+      <section class="cl" data-scroll-section>
+        <div class="cl-container container">
+          <div class="row row-cols-1 row-cols-md-4 g-5 justify-content-center">
+            <div class="col">
+              <img
+                src="./assets/comp_tg1.png"
+                alt=""
+                class="img-fluid w-75 mx-auto d-block"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="./assets/comp_tg2.png"
+                alt=""
+                class="img-fluid w-75 mx-auto d-block"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="./assets/comp_tg3.png"
+                alt=""
+                class="img-fluid w-75 mx-auto d-block"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="./assets/comp_tg4.png"
+                alt=""
+                class="img-fluid w-75 mx-auto d-block"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- what we have -->
+      <section class="wwh" id="features" data-scroll-section>
+        <div class="wwh-container container-xl">
+          <!-- headings -->
+          <div class="wwh-headings text-center col-lg-6 mx-auto mb-4">
+            <h2 class="headline fs-48 ff-secondary-b">What we have</h2>
+            <span class="separator bg-neutral-300 mx-auto mb-4"></span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Cursus morbi nunc molestie
+              donec condimentum auctor. Massa mauris pellentesque augue ac a
+              mauris ante. Amet luctus amet ultrices nisi sit adipiscing orci
+              pharetra.
+            </p>
+          </div>
+
+          <!-- wwh list -->
+          <div class="wwh-app row row-cols-1 row-cols-lg-3">
+            <!-- left column -->
+            <div class="app-services col">
+              <div
+                class="row row-cols-1 row-cols-md-3 flex-lg-column justify-content-between h-100 text-center"
+              >
+                <div class="app-service col">
+                  <img src="./assets/s-weather.svg" alt="" class="icon" />
+                  <h3 class="category ff-secondary-b fs-24 fs-md-36">
+                    Forcasting
+                  </h3>
+                  <p class="pgraph px-5 px-md-0 px-5">
+                    Lorem ipsum dolor sit amet consectetur. Ullamcorper odio
+                    pulvinar tortor gravida.
+                  </p>
+                </div>
+                <div class="app-service col">
+                  <img src="./assets/s-chat.svg" alt="" class="icon" />
+                  <h3 class="category ff-secondary-b fs-24 fs-md-36">
+                    Chat Support
+                  </h3>
+                  <p class="pgraph px-5 px-md-0">
+                    Lorem ipsum dolor sit amet consectetur. Ullamcorper odio
+                    pulvinar tortor gravida.
+                  </p>
+                </div>
+                <div class="app-service col">
+                  <img src="./assets/s-map.svg" alt="" class="icon" />
+                  <h3 class="category ff-secondary-b fs-24 fs-md-36">
+                    Geo Tracking
+                  </h3>
+                  <p class="pgraph px-5 px-md-0">
+                    Lorem ipsum dolor sit amet consectetur. Ullamcorper odio
+                    pulvinar tortor gravida.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- middle column  -->
+
+            <div class="col d-none d-lg-block">
+              <img
+                src="./assets/wwh-phone.png"
+                alt=""
+                class="img-fluid mx-auto d-block"
+                style="height: 30rem"
+              />
+            </div>
+
+            <!-- right column -->
+            <div class="app-services col">
+              <div
+                class="row row-cols-1 row-cols-md-3 flex-lg-column justify-content-between h-100 text-center"
+              >
+                <div class="app-service col">
+                  <img src="./assets/s-itinenary.svg" alt="" class="icon" />
+                  <h3 class="category ff-secondary-b fs-24 fs-md-36">
+                    Travel Itinerary
+                  </h3>
+                  <p class="pgraph px-5 px-md-0">
+                    Lorem ipsum dolor sit amet consectetur. Ullamcorper odio
+                    pulvinar tortor gravida.
+                  </p>
+                </div>
+                <div class="app-service col">
+                  <img src="./assets/s-language.svg" alt="" class="icon" />
+                  <h3 class="category ff-secondary-b fs-24 fs-md-36">
+                    Languages
+                  </h3>
+                  <p class="pgraph px-5 px-md-0">
+                    Lorem ipsum dolor sit amet consectetur. Ullamcorper odio
+                    pulvinar tortor gravida.
+                  </p>
+                </div>
+                <div class="app-service col">
+                  <img src="./assets/s-wifi.svg" alt="" class="icon" />
+                  <h3 class="category ff-secondary-b fs-24 fs-md-36">
+                    Offline Access
+                  </h3>
+                  <p class="pgraph px-5 px-md-0">
+                    Lorem ipsum dolor sit amet consectetur. Ullamcorper odio
+                    pulvinar tortor gravida.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- find place -->
+      <section
+        class="fp fp__c position-relative text-primary-200"
+        data-scroll-section
+      >
+        <!-- content -->
+        <div class="fp-container container-xl isolate">
+          <div
+            class="row justify-content-around align-items-center px-md-5 z-1"
+          >
+            <!-- left side -->
+            <div
+              class="fp-container__ls order-1 order-lg-0 col col-md-12 col-lg-6 col-xl-5 d-none d-md-block mt-5 mt-lg-0"
+            >
+              <img
+                src="./assets/fp-phone-2.png"
+                alt=""
+                class="img-fluid"
+                style="height: 100%"
+              />
+            </div>
+
+            <!-- right side -->
+            <div class="fp-container__rs col-lg-6 col-xl-5">
+              <!-- headings -->
+              <div class="fp_headings text-center text-lg-start">
+                <p class="kicker opacity-100">What you need to do</p>
+                <h3 class="headline ff-secondary-b fs-38 fs-md-48 fw-700 lh-1">
+                  Find Place
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Quis ut tellus
+                  pulvinar amet at. Aenean curabitur ipsum adipiscing in vitae
+                  non.
+                </p>
+              </div>
+
+              <!-- topic list-->
+              <ul role="list" class="tp_list ps-0 mb-0 mt-5 mt-lg-4">
+                <li class="list-item text-center text-lg-start">
+                  <img
+                    src="./assets/fp-BookTrip.svg"
+                    alt=""
+                    class="icon-square"
+                  />
+                  <h4 class="list-title ff-secondary-sb fs-24 m-0">
+                    Book a Trip
+                  </h4>
+                  <p class="m-0">
+                    Lorem ipsum dolor sit amet consectetur. At nulla magnis diam
+                    amet leo.
+                  </p>
+                </li>
+                <li class="list-item text-center text-lg-start">
+                  <img
+                    src="./assets/fp-Pay&Rates.svg"
+                    alt=""
+                    class="icon-square"
+                  />
+                  <h4 class="list-title ff-secondary-sb fs-24 m-0">
+                    Pay and Rates
+                  </h4>
+                  <p class="m-0">
+                    Lorem ipsum dolor sit amet consectetur. At nulla magnis diam
+                    amet leo.
+                  </p>
+                </li>
+                <li class="list-item text-center text-lg-start">
+                  <img
+                    src="./assets/fp-EnjoyTrip.svg"
+                    alt=""
+                    class="icon-square m-0"
+                  />
+                  <h4 class="list-title ff-secondary-sb fs-24 m-0">
+                    Enjoy your Trip
+                  </h4>
+                  <p class="m-0">
+                    Lorem ipsum dolor sit amet consectetur. At nulla magnis diam
+                    amet leo.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- get start -->
+      <section class="gs" data-scroll-section>
+        <div class="gs-container container">
+          <!-- headings -->
+          <div class="wwh-headings text-center mx-auto mb-4 col-lg-6">
+            <h2 class="headline fs-36 fs-md-48 ff-secondary-b">
+              Get started for FREE
+            </h2>
+            <span class="separator bg-neutral-300 mx-auto mb-4"></span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Ac sed amet vitae eget
+              ullamcorper risus sit ut. Auctor tempus faucibus volutpat eget
+              cursus malesuada volutpat. Proin sit elit in lobortis in.
+            </p>
+          </div>
+
+          <form class="form col-md-8 col-lg-6">
+            <label for="fullname" class="form-label fw-bold">Fullname</label>
+            <input
+              class="form-control border-0 py-3 fs-6 mb-4 text-center"
+              type="text"
+              id="fullname"
+            />
+
+            <label for="email" class="form-label fw-bold">Email</label>
+            <input
+              class="form-control border-0 py-3 fs-6 mb-4 text-center"
+              type="text"
+              id="email"
+            />
+
+            <label for="phone" class="form-label fw-bold">Phone Number</label>
+            <input
+              class="form-control border-0 py-3 fs-6 mb-4 text-center"
+              type="text"
+              id="phone"
+            />
+
+            <button class="btn btn-accent-100 px-5" type="submit">
+              Sign Up
+            </button>
+
+            <!-- link -->
+            <p class="mt-5">
+              Read the
+              <a class="link__gradient text-accent-100 fw-bold" href="#"
+                >Terms & Privacy Policy</a
+              >
+              first
+            </p>
+          </form>
+        </div>
+      </section>
+
+      <!-- pricing section -->
+      <section
+        class="pricing pricing__c position-relative"
+        id="pricing"
+        data-scroll-section
+      >
+        <!-- content -->
+        <div class="pricing-container container-xl">
+          <!-- headings -->
+          <div
+            class="pricing-headings col col-md-7 text-center text-primary-200"
+          >
+            <h2 class="headline ff-secondary-b fs-38 fs-md-48 fs-lg-64 lh-1">
+              Paid plan starts with a 7-day free trial
+            </h2>
+            <p class="">
+              Lorem ipsum dolor sit amet consectetur. Ac sed amet vitae eget
+              ullamcorper risus sit ut. Auctor tempus faucibus volutpat eget
+              cursus malesuada volutpat. Proin sit elit in lobortis in.
+            </p>
+          </div>
+
+          <!-- pricing cards -->
+          <div
+            class="pricing-cards row row-cols-1 row-cols-md-3 justify-content-center g-5 g-md-0"
+          >
+            <div class="col">
+              <div class="card rounded text-center bg-primary-100">
+                <h3 class="pricing-category ff-secondary-sb mb-4">Standard</h3>
+                <h2 class="pricing-price fw-semibold fs-38">$20.00</h2>
+                <span class="per mb-4">/month</span>
+
+                <p class="mb-5">
+                  Lorem ipsum dolor sit amet consectetur. Libero ipsum dui
+                  tincidunt consectetur mattis porta eleifend. Nulla adipiscing
+                  pellentesque phasellus quis arcu cursus justo.
+                </p>
+
+                <button type="button" class="btn btn-outline-accent-100">
+                  Get Started
+                </button>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card rounded text-center bg-primary-100">
+                <h3 class="pricing-category ff-secondary-sb mb-4">
+                  Enterprice
+                </h3>
+                <h2 class="pricing-price fw-semibold fs-38">$20.00</h2>
+                <span class="per mb-4">/month</span>
+
+                <p class="mb-5">
+                  Lorem ipsum dolor sit amet consectetur. Libero ipsum dui
+                  tincidunt consectetur mattis porta eleifend. Nulla adipiscing
+                  pellentesque phasellus quis arcu cursus justo.
+                </p>
+
+                <button type="button" class="btn btn-accent-100">
+                  Free Trial
+                </button>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card rounded text-center bg-primary-100">
+                <h3 class="pricing-category ff-secondary-sb mb-4">Premium</h3>
+                <h2 class="pricing-price fw-semibold fs-38">$20.00</h2>
+                <span class="per mb-4">/month</span>
+
+                <p class="mb-5">
+                  Lorem ipsum dolor sit amet consectetur. Libero ipsum dui
+                  tincidunt consectetur mattis porta eleifend. Nulla adipiscing
+                  pellentesque phasellus quis arcu cursus justo.
+                </p>
+
+                <button type="button" class="btn btn-outline-accent-100">
+                  Get Started
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- reviews -->
+      <section class="reviews reviews__c" id="reviews" data-scroll-section>
+        <div class="reviews-container container-xl">
+          <!-- headings -->
+          <div class="reviews-headings text-center col-md-8 mx-auto">
+            <h2 class="headline fs-36 fs-md-48 ff-secondary-b">
+              Client Reviews
+            </h2>
+            <span class="separator bg-neutral-300 mx-auto mb-4"></span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Cursus morbi nunc molestie
+              donec condimentum auctor. Massa mauris pellentesque augue ac a
+              mauris ante. Amet luctus amet ultrices nisi sit adipiscing orci
+              pharetra.
+            </p>
+          </div>
+
+          <!-- client testimony -->
+          <div
+            class="reviews-clients row row-cols-md-2 row-cols-lg-3 justify-content-center"
+          >
+            <div class="col">
+              <div class="card border-0">
+                <img
+                  src="./assets/reviews-client-a.png"
+                  alt=""
+                  class="client-avatar position-absolute top-0 start-50 translate-middle"
+                />
+                <img
+                  src="./assets/icons/stars.svg"
+                  alt=""
+                  class="client-rating"
+                />
+
+                <p class="text-center">
+                  Lorem ipsum dolor sit amet consectetur. Commodo non egestas
+                  quis pharetra pharetra. Purus amet ultrices et varius nulla
+                  viverra semper. Tempus magna mauris nisi ac aliquam cursus
+                  purus et lacus.
+                </p>
+
+                <h5 class="client-name fw-bold m-0">Kristel Yao</h5>
+                <h6 class="client-address m-0">Los Angels, California</h6>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card border-0">
+                <img
+                  src="./assets/reviews-client-c.png"
+                  alt=""
+                  class="client-avatar position-absolute top-0 start-50 translate-middle"
+                />
+                <img
+                  src="./assets/icons/stars.svg"
+                  alt=""
+                  class="client-rating"
+                />
+
+                <p class="text-center">
+                  Lorem ipsum dolor sit amet consectetur. Commodo non egestas
+                  quis pharetra pharetra. Purus amet ultrices et varius nulla
+                  viverra semper. Tempus magna mauris nisi ac aliquam cursus
+                  purus et lacus.
+                </p>
+
+                <h5 class="client-name fw-bold m-0">Harry Williams</h5>
+                <h6 class="client-address m-0">Los Angels, California</h6>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card position-relative border-0">
+                <img
+                  src="./assets/reviews-client-b.png"
+                  alt=""
+                  class="client-avatar position-absolute top-0 start-50 translate-middle"
+                />
+                <img
+                  src="./assets/icons/stars.svg"
+                  alt=""
+                  class="client-rating"
+                />
+
+                <p class="text-center">
+                  Lorem ipsum dolor sit amet consectetur. Commodo non egestas
+                  quis pharetra pharetra. Purus amet ultrices et varius nulla
+                  viverra semper. Tempus magna mauris nisi ac aliquam cursus
+                  purus et lacus.
+                </p>
+
+                <h5 class="client-name fw-bold m-0">Danicha Mills</h5>
+                <h6 class="client-address m-0">Los Angels, California</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- cta section -->
+      <section class="cta cta__c position-relative" data-scroll-section>
+        <img
+          src="./assets/mobile-diagonal.png"
+          alt=""
+          class="cta-phone position-absolute"
+        />
+
+        <div class="container">
+          <div
+            class="cta-headings col-md-6 col-xl-5 text-primary-200 text-center text-md-start"
+          >
+            <h2
+              class="headline ff-secondary-b fs-48 fs-lg-64 fs-xl-64 col-xl-9 lh-1"
+            >
+              Download our app now!
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Volutpat leo tortor lorem
+              posuere aenean varius eget eu.
+            </p>
+
+            <div
+              class="row justify-content-center justify-content-md-start gy-2"
+            >
+              <div class="col-9 col-md-6 col-lg-5 col-xl-5 pe-md-0">
+                <button type="button" class="btn p-0">
+                  <img
+                    src="./assets/appstore-button.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </button>
+              </div>
+              <div class="col-9 col-md-6 col-lg-5 col-xl-5 ps-md-0">
+                <button type="button" class="btn p-0">
+                  <img
+                    src="./assets/googleplay-button.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="footer bg-primary-100 shadow-sm" data-scroll-section>
+        <div class="footer-container container">
+          <div
+            class="row row-cols-1 row-cols-lg-2 justify-content-lg-between py-5"
+          >
+            <div class="col col-lg-7">
+              <div class="footer-links row row-cols-2 row-cols-md-3">
+                <div class="col">
+                  <h6 class="fw-bold mb-4">Company</h6>
+                  <ul role="list" class="p-0">
+                    <li><a href="/"> Career </a></li>
+                    <li><a href="/"> About Us </a></li>
+                    <li><a href="/"> Achievements </a></li>
+                    <li><a href="/"> Partners </a></li>
+                    <li><a href="/"> Contact </a></li>
+                    <li><a href="/"> Blog </a></li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <h6 class="fw-bold mb-4">Travellers</h6>
+                  <ul role="list" class="p-0">
+                    <li><a href="/"> Why Travellers </a></li>
+                    <li><a href="/"> Customer Stories </a></li>
+                    <li><a href="/"> Security </a></li>
+                    <li><a href="/"> Tours </a></li>
+                    <li><a href="/"> Events </a></li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <h6 class="fw-bold mb-4">Resources</h6>
+                  <ul role="list" class="p-0">
+                    <li><a href="/"> Download </a></li>
+                    <li><a href="/"> Help Center </a></li>
+                    <li><a href="/"> Developers </a></li>
+                    <li><a href="/"> App Directory </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-md-7 col-lg-4 mt-md-4 mt-lg-0">
+              <h6 class="fw-bold mb-4">Subscribe</h6>
+
+              <form class="form">
+                <input
+                  type="text"
+                  class="form-control rounded-0 rounded-start"
+                  placeholder="Email Address"
+                  required
+                />
+
+                <button
+                  class="btn btn-accent-100 rounded-0 rounded-end px-3"
+                  type="submit"
+                >
+                  <img src="./assets/send-arrow.svg" alt="" />
+                </button>
+              </form>
+
+              <div class="row mt-4">
+                <div class="col pe-1">
+                  <button type="button" class="btn p-0">
+                    <img
+                      src="./assets/appstore-button.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </button>
+                </div>
+                <div class="col ps-1">
+                  <button type="button" class="btn p-0">
+                    <img
+                      src="./assets/googleplay-button.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr class="mt-0" />
+
+          <div
+            class="w-100 d-flex justify-content-between align-items-center pb-2"
+          >
+            <a class="fw-bold" href="#">Logo Here</a>
+
+            <ul role="list" class="d-flex gap-3 p-0 m-0">
+              <li>
+                <a href="#"><img src="./assets/icons/facebook.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./assets/icons/twitter.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/icons/instagram.svg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./assets/icons/linkedin.svg" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+      <a
+        href="#hero"
+        class="back-to-top btn btn-neutral-300 rounded-2 p-2 a_link"
+      >
+        <img src="./assets/send-arrow.svg" alt="" />
+      </a>
+    </main>
+  </body>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"
+  ></script>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+    integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/CSSRulePlugin.min.js"
+    integrity="sha512-TJiE9joKYXjdf5nd0Kkzqt9QOYfp5Hk5W/PaeRmpOd7HYBVdSqpTxJezbfLzJnPrS7HGnalR54WO/hbppgDgkw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+
+  <script defer src="./js/script.js"></script>
+</html>

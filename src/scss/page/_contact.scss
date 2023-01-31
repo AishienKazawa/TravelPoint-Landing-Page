@@ -1,0 +1,125 @@
+$section-pad-block: 7rem;
+
+main {
+  .hero {
+    &__e {
+      height: fit-content !important;
+      display: grid !important;
+      grid-template-rows: auto 30vh;
+      background-image: url("../../assets/hero-bg.png");
+      @extend %background-covered;
+
+      &::before {
+        @extend %pseudo-covered;
+        background-image: $gradient-100;
+        opacity: 0.8;
+        z-index: 1;
+      }
+
+      .hero-container {
+        grid-template-rows: 1fr;
+        padding: 0 !important;
+
+        .breadcrumb-item {
+          &::before {
+            color: var(--clr-primary-200);
+          }
+        }
+      }
+    }
+  }
+
+  .ff {
+    padding-block: calc($section-pad-block / 2);
+
+    &-container {
+      padding-inline: 1rem;
+
+      @media (min-width: 1200px) {
+        padding-inline: 3rem;
+      }
+
+      & > .row {
+        row-gap: 1rem;
+      }
+
+      &__ls {
+        .sphere__gradient-alpha-1 {
+          scale: 4;
+          top: 0%;
+          left: -0%;
+          z-index: -1;
+          opacity: 0.25;
+
+          @media (min-width: 1200px) {
+            top: 22%;
+            right: -22%;
+          }
+
+          @media (min-width: 1200px) {
+            top: -10%;
+            right: -15%;
+          }
+        }
+
+        .sphere__gradient-s {
+          scale: 1.2;
+          top: 95%;
+          left: -25%;
+
+          @media (min-width: 1200px) {
+            scale: 1.2;
+            top: 95%;
+            left: -25%;
+          }
+        }
+
+        [role="list"] {
+          display: grid;
+          row-gap: 1.5rem;
+        }
+      }
+
+      &__rs {
+        .sphere__gradient-s {
+          scale: 1.4;
+          bottom: 35%;
+          right: -40%;
+
+          @media (min-width: 1200px) {
+            scale: 1.8;
+            bottom: 30%;
+            right: -35%;
+          }
+        }
+
+        .sphere__gradient-alpha {
+          scale: 5.5;
+          bottom: -30%;
+          right: -30%;
+          z-index: -1;
+          opacity: 0.25;
+
+          @media (min-width: 1200px) {
+            bottom: -30%;
+            right: -30%;
+          }
+        }
+
+        .form {
+          display: grid;
+          row-gap: 1.8rem !important;
+          place-items: end;
+
+          .form-control {
+            padding: 1.2rem !important;
+          }
+
+          .btn {
+            width: fit-content;
+          }
+        }
+      }
+    }
+  }
+}

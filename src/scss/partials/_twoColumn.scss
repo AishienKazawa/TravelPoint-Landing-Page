@@ -1,0 +1,43 @@
+.tp_list {
+  display: grid;
+  row-gap: 1.4rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (min-width: 992px) {
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+    padding-right: 4rem;
+  }
+
+  .list-item {
+    display: grid;
+    grid-template-areas: "symbol" "title" "pgraph";
+    place-items: center;
+    row-gap: 0.5rem;
+
+    @media (min-width: 992px) {
+      grid-template-rows: auto 1fr;
+      grid-template-areas: "symbol title" "symbol pgraph";
+      place-items: normal;
+      row-gap: 0;
+      column-gap: 1.4rem;
+    }
+
+    .icon-square {
+      margin-bottom: 1rem;
+      grid-area: symbol;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .list-title {
+      grid-area: title;
+    }
+
+    p {
+      grid-area: pgraph;
+    }
+  }
+}

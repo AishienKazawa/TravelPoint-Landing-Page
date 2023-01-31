@@ -1,0 +1,55 @@
+:root {
+  @each $key, $value in $custom-colors {
+    --clr-#{$key}: #{$value};
+  }
+
+  @each $key, $value in $custom-family {
+    --ff-#{$key}: #{$value};
+  }
+}
+
+// custom font size
+@each $bps, $bp in $custom-bps {
+  @each $key, $value in $custom-fontSize {
+    @if ($bp < 768) {
+      @media (min-width: #{$bp}px) {
+        .fs-#{$key} {
+          font-size: #{$value}px;
+        }
+      }
+    } @else {
+      @media (min-width: #{$bp}px) {
+        .fs-#{$bps}-#{$key} {
+          font-size: #{$value}px;
+        }
+      }
+    }
+  }
+}
+
+// custom color theme
+@each $key, $value in $custom-colors {
+  .text-#{$key} {
+    color: #{$value} !important;
+  }
+  .bg-#{$key} {
+    background-color: #{$value} !important;
+  }
+
+  .btn-#{$key} {
+    background-color: #{$value} !important;
+    color: #ffffff !important;
+  }
+
+  .btn-outline-#{$key} {
+    border: 2px solid #{$value} !important;
+    color: #{$value} !important;
+  }
+}
+
+// font family
+@each $key, $value in $custom-family {
+  .ff-#{$key} {
+    font-family: #{$value} !important;
+  }
+}

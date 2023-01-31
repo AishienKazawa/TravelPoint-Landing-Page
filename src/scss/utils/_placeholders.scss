@@ -1,0 +1,22 @@
+// background cover size
+%background-covered {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+// background cover size
+%background-contain {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+// pseudo element covered gradient
+
+%pseudo-covered {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
