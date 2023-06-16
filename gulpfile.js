@@ -5,7 +5,7 @@ const cssnano = require("cssnano");
 const terser = require("gulp-terser");
 const browsersync = require("browser-sync").create();
 
-//SASS Task
+// sass Task
 function scssTask() {
   return src("./src/scss/style.scss", { sourcemaps: true })
     .pipe(sass())
@@ -13,14 +13,14 @@ function scssTask() {
     .pipe(dest("./src/dist", { sourcemaps: "." }));
 }
 
-//Javascript task
+// javascript task
 function jsTask() {
   return src("./src/js/script.js", { sourcemaps: true })
     .pipe(terser())
     .pipe(dest("./src/dist", { sourcemaps: "." }));
 }
 
-//Browsersync Task
+// browsersync Task
 function browsersyncServe(cb) {
   browsersync.init({
     server: {
@@ -45,5 +45,8 @@ function watchTask() {
   );
 }
 
-// Default Gulp task
+// default Gulp task
 exports.default = series(scssTask, jsTask, browsersyncServe, watchTask);
+
+// build gulp task
+exports.build = series(scssTask, jsTask);
