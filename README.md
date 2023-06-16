@@ -22,5 +22,5 @@ Here are some resources that may be helpful for working with the technologies us
 
 ## Hosted Version
 
-A live version of the Barber Shop Landing Page is available [here](https://travel-point-app.netlify.app/).
+A live version of the Barber Shop Landing Page is available [here](https://app-landing-pages.vercel.app/).
 
