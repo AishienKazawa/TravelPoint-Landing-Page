@@ -48,6 +48,6 @@ Provide step-by-step instructions for users to set up and run the project locall
 ```
 
 ## Demo
-Experience the live version of the TravelPoint Landing Page [here](https://app-landing-pages.vercel.app/).
+Experience the live version of the TravelPoint Landing Page [here](https://travel-point.vercel.app/).
 
 Feel free to explore the code and customize it according to your needs. If you have any questions or suggestions, don't hesitate to reach out. Happy coding!
