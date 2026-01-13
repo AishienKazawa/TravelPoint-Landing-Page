@@ -9,10 +9,10 @@
   z-index: 3000;
 
   .loader {
-    width: 100px;
-    height: 100px;
-    border: 3px solid var(--clr-accent-100);
-    border-bottom: 3px solid transparent;
+    width: 50px;
+    height: 50px;
+    border: 2px solid var(--clr-accent-100);
+    border-bottom: 2px solid transparent;
     border-radius: 50%;
     position: relative;
     animation: spin 1s linear infinite;
@@ -21,10 +21,10 @@
     align-items: center;
 
     .inner {
-      width: 50px;
-      height: 50px;
-      border: 3px solid transparent;
-      border-top: 3px solid var(--clr-accent-100);
+      width: 25px;
+      height: 25px;
+      border: 2px solid transparent;
+      border-top: 2px solid var(--clr-accent-100);
       border-radius: 50%;
       animation: spinInner 1s linear infinite;
     }
